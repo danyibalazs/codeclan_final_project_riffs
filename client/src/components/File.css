@@ -1,0 +1,39 @@
+.file {
+	background-color: #333;
+	opacity: 0.8;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+	border-color: #333;
+	border-style: solid;
+	border-radius: 20px;
+	border-width: thin;
+	color: white;
+	font-size: 1.5em;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+
+#audioplayer {
+  width: 100%;
+	height: 1.5em;
+	padding-bottom: 1em;
+}
+
+.editdeletediv {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+button {
+	margin: 0;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+summary {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 0.8em;
+}

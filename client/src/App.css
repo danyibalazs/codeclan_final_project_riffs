@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+html { 
+	background: url(./bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+ul {
+	opacity: 0.8;
+  border-radius: 15px;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  box-shadow: black;
+  text-align: center;
+  font-family: 'Lacquer', cursive;
+  font-size: 1.5em;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+li {
+  display: inline-block;  
+}
+
+li a {
+	opacity: 0.8;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+	opacity: 1;
+  border-radius: 15px;
+  color: white;
+}
+
+li a.active {
+	color: grey;
+}
+
+p {
+	color: whitesmoke;
+	font-family: 'Lacquer', cursive;
+	margin: 0;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+h5 {
+	margin: 1em;
+}
+
+h6 {
+	margin: 1em;
+}
+
+.progress {
+	font-size: 2em;
+	font-family: 'Lacquer', cursive;
+	color: rgb(150, 53, 53);
+	text-align: center;
+	padding: 10px;
+}
+
+.success {
+	font-size: 2em;
+	font-family: 'Lacquer', cursive;
+	color: rgb(89, 133, 24);
+	text-align: center;
+	padding: 10px;
+}
+
+

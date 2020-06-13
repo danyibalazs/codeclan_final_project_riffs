@@ -1,0 +1,66 @@
+.form-style-5 {
+	opacity: 0.8;
+	grid-area: 1 / 1 / 2 / 3;
+  	max-width: 70%;
+	padding: 10px 20px;
+	margin: 10px auto;
+	padding: 20px;
+	background: #333;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.form-style-5 input[type="text"],
+.form-style-5 input[type="file"],
+.form-style-5 textarea{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgb(255, 255, 255);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: white;
+	color: black;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="file"]:focus,
+.form-style-5 textarea:focus {
+	background: rgb(236, 235, 235);
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: grey;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid black;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: lightgray;
+}
+
+textarea {
+  resize: none;
+}
