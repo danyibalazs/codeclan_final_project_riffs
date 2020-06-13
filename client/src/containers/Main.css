@@ -20,8 +20,7 @@ header {
 .content { 
   grid-area: 3 / 3 / 5 / 5;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-top: 5em;
+  margin-top: 4em;
   overflow: scroll;
 }
 

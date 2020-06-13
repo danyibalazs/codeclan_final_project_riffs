@@ -40,7 +40,7 @@ const Main = () => {
             <NavBar refreshList={refreshList}/>
           </div>
           <div className="content">
-            <Route exact path="/" component={Home} />
+            <Route exact path="/Home" component={Home} />
             <Route path="/UploadForm" component={UploadForm} />
             <Route path="/FileList" render={() => <FileList files={files}/>}/>
             <Route path="/EditForm" component={EditForm} />
